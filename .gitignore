@@ -1,3 +1,8 @@
 node_modules/
 .env
 guide.md
+logs/
+app.log
+error.log
+exceptions.log
+rejections.log
