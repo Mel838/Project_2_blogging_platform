@@ -8,6 +8,8 @@ import rateLimit from "express-rate-limit";
 import indexRouter from "./routes/index.js";
 import authRoutes from "./routes/authroute.js";
 import userRoutes from "./routes/users.js";
+import postRoutes from "./routes/postRoute.js";
+import commentRoutes from "./routes/commentRoute.js";
 import { globalErrorHandler } from "./middleware/errorHandler.js";
 import { AppError } from "./middleware/errorHandler.js";
 
@@ -15,8 +17,8 @@ const app = express();
 
 // Rate limiting middleware
 const limiter = rateLimit({
-  windowMs: 15 * 60 * 1000,
-  max: 100,
+  windowMs: 15 * 60 * 1000, // 15 minutes
+  max: 100, // limit each IP to 100 requests per windowMs
   message: {
     success: false,
     error: 'Too many requests from this IP, please try again later.'
@@ -39,6 +41,8 @@ app.use(cookieParser());
 app.use('/', indexRouter);
 app.use('/auth', authRoutes);
 app.use('/users', userRoutes);
+app.use('/posts', postRoutes);
+app.use('/comments', commentRoutes);
 
 // Handle undefined routes
 app.all('*', (req, res, next) => {
