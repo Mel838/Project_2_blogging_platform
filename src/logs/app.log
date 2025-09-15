@@ -1,0 +1,77 @@
+{"level":"info","message":"Starting blog database initialization...","service":"todos-api","timestamp":"2025-09-15T10:08:19.943Z"}
+{"level":"info","message":"Blog database tables created successfully","service":"todos-api","timestamp":"2025-09-15T10:08:20.014Z"}
+{"level":"info","message":"Server listening on port 8000,","service":"todos-api","timestamp":"2025-09-15T10:08:20.015Z"}
+{"level":"info","message":"Closing database...","service":"todos-api","timestamp":"2025-09-15T10:08:37.964Z"}
+{"level":"info","message":"Starting blog database initialization...","service":"todos-api","timestamp":"2025-09-15T10:08:41.734Z"}
+{"level":"info","message":"Blog database tables created successfully","service":"todos-api","timestamp":"2025-09-15T10:08:41.779Z"}
+{"level":"info","message":"Server listening on port 8000,","service":"todos-api","timestamp":"2025-09-15T10:08:41.780Z"}
+{"level":"info","message":"Closing database...","service":"todos-api","timestamp":"2025-09-15T10:08:47.887Z"}
+{"level":"info","message":"Starting blog database initialization...","service":"todos-api","timestamp":"2025-09-15T10:11:46.070Z"}
+{"level":"info","message":"Blog database tables created successfully","service":"todos-api","timestamp":"2025-09-15T10:11:46.112Z"}
+{"level":"info","message":"Server listening on port 8000,","service":"todos-api","timestamp":"2025-09-15T10:11:46.113Z"}
+{"level":"info","message":"Starting blog database initialization...","service":"blogging_api","timestamp":"2025-09-15T10:14:32.899Z"}
+{"level":"info","message":"Blog database tables created successfully","service":"blogging_api","timestamp":"2025-09-15T10:14:32.940Z"}
+{"level":"info","message":"Server listening on port 6000,","service":"blogging_api","timestamp":"2025-09-15T10:14:32.941Z"}
+{"level":"info","message":"Closing database...","service":"blogging_api","timestamp":"2025-09-15T10:14:40.640Z"}
+{"level":"info","message":"Starting blog database initialization...","service":"blogging_api","timestamp":"2025-09-15T10:14:42.976Z"}
+{"level":"info","message":"Blog database tables created successfully","service":"blogging_api","timestamp":"2025-09-15T10:14:43.014Z"}
+{"level":"info","message":"Server listening on port 6000,","service":"blogging_api","timestamp":"2025-09-15T10:14:43.015Z"}
+{"level":"info","message":"Closing database...","service":"blogging_api","timestamp":"2025-09-15T10:14:51.741Z"}
+{"level":"info","message":"Starting blog database initialization...","service":"blogging_api","timestamp":"2025-09-15T10:15:35.880Z"}
+{"level":"info","message":"Blog database tables created successfully","service":"blogging_api","timestamp":"2025-09-15T10:15:35.923Z"}
+{"level":"info","message":"Server listening on port 6000,","service":"blogging_api","timestamp":"2025-09-15T10:15:35.924Z"}
+{"level":"info","message":"Starting blog database initialization...","service":"blogging_api","timestamp":"2025-09-15T10:20:56.790Z"}
+{"level":"info","message":"Blog database tables created successfully","service":"blogging_api","timestamp":"2025-09-15T10:20:56.833Z"}
+{"level":"info","message":"Server listening on port 7000,","service":"blogging_api","timestamp":"2025-09-15T10:20:56.834Z"}
+{"level":"info","message":"Starting blog database initialization...","service":"blogging_api","timestamp":"2025-09-15T10:23:45.989Z"}
+{"level":"info","message":"Blog database tables created successfully","service":"blogging_api","timestamp":"2025-09-15T10:23:46.035Z"}
+{"level":"info","message":"Server listening on port 9000,","service":"blogging_api","timestamp":"2025-09-15T10:23:46.036Z"}
+{"level":"info","message":"Starting blog database initialization...","service":"blogging_api","timestamp":"2025-09-15T10:35:46.019Z"}
+{"level":"info","message":"Blog database tables created successfully","service":"blogging_api","timestamp":"2025-09-15T10:35:46.064Z"}
+{"level":"info","message":"Server listening on port 9001,","service":"blogging_api","timestamp":"2025-09-15T10:35:46.065Z"}
+{"level":"info","message":"Closing database...","service":"blogging_api","timestamp":"2025-09-15T10:36:08.588Z"}
+{"level":"info","message":"Starting blog database initialization...","service":"blogging_api","timestamp":"2025-09-15T10:36:57.500Z"}
+{"level":"info","message":"Blog database tables created successfully","service":"blogging_api","timestamp":"2025-09-15T10:36:57.545Z"}
+{"level":"info","message":"Server listening on port 9001,","service":"blogging_api","timestamp":"2025-09-15T10:36:57.546Z"}
+{"level":"info","message":"Starting blog database initialization...","service":"blogging_api","timestamp":"2025-09-15T10:50:02.398Z"}
+{"level":"info","message":"Blog database tables created successfully","service":"blogging_api","timestamp":"2025-09-15T10:50:02.470Z"}
+{"level":"info","message":"Server listening on port 9002,","service":"blogging_api","timestamp":"2025-09-15T10:50:02.471Z"}
+{"level":"info","message":"Closing database...","service":"blogging_api","timestamp":"2025-09-15T10:54:55.024Z"}
+{"level":"info","message":"Starting blog database initialization...","service":"blogging_api","timestamp":"2025-09-15T10:58:05.210Z"}
+{"level":"info","message":"Blog database tables created successfully","service":"blogging_api","timestamp":"2025-09-15T10:58:05.250Z"}
+{"level":"info","message":"Server listening on port 9002,","service":"blogging_api","timestamp":"2025-09-15T10:58:05.251Z"}
+{"level":"info","message":"Starting blog database initialization...","service":"blogging_api","timestamp":"2025-09-15T21:07:39.427Z"}
+{"level":"info","message":"Blog database tables created successfully","service":"blogging_api","timestamp":"2025-09-15T21:07:39.487Z"}
+{"level":"info","message":"Server listening on port 9002,","service":"blogging_api","timestamp":"2025-09-15T21:07:39.488Z"}
+{"level":"info","message":"Starting blog database initialization...","service":"blogging_api","timestamp":"2025-09-15T21:10:33.412Z"}
+{"level":"info","message":"Blog database tables created successfully","service":"blogging_api","timestamp":"2025-09-15T21:10:33.471Z"}
+{"level":"info","message":"Server listening on port 9002,","service":"blogging_api","timestamp":"2025-09-15T21:10:33.472Z"}
+{"level":"info","message":"Closing database...","service":"blogging_api","timestamp":"2025-09-15T21:13:29.786Z"}
+{"level":"info","message":"Starting blog database initialization...","service":"blogging_api","timestamp":"2025-09-15T21:33:30.609Z"}
+{"level":"info","message":"Blog database tables created successfully","service":"blogging_api","timestamp":"2025-09-15T21:33:30.791Z"}
+{"level":"info","message":"Server listening on port 9002,","service":"blogging_api","timestamp":"2025-09-15T21:33:30.797Z"}
+{"level":"info","message":"Closing database...","service":"blogging_api","timestamp":"2025-09-15T21:41:52.549Z"}
+{"level":"info","message":"Starting blog database initialization...","service":"blogging_api","timestamp":"2025-09-15T21:42:01.212Z"}
+{"level":"info","message":"Blog database tables created successfully","service":"blogging_api","timestamp":"2025-09-15T21:42:01.246Z"}
+{"level":"info","message":"Server listening on port 9002,","service":"blogging_api","timestamp":"2025-09-15T21:42:01.247Z"}
+{"level":"info","message":"Closing database...","service":"blogging_api","timestamp":"2025-09-15T21:42:28.759Z"}
+{"level":"info","message":"Starting blog database initialization...","service":"blogging_api","timestamp":"2025-09-15T21:43:01.319Z"}
+{"level":"info","message":"Blog database tables created successfully","service":"blogging_api","timestamp":"2025-09-15T21:43:01.356Z"}
+{"level":"info","message":"Server listening on port 9002,","service":"blogging_api","timestamp":"2025-09-15T21:43:01.357Z"}
+{"level":"info","message":"Starting blog database initialization...","service":"blogging_api","timestamp":"2025-09-15T21:44:25.669Z"}
+{"level":"info","message":"Blog database tables created successfully","service":"blogging_api","timestamp":"2025-09-15T21:44:25.715Z"}
+{"level":"info","message":"Server listening on port 9002,","service":"blogging_api","timestamp":"2025-09-15T21:44:25.715Z"}
+{"level":"info","message":"Closing database...","service":"blogging_api","timestamp":"2025-09-15T21:49:34.117Z"}
+{"level":"info","message":"Starting blog database initialization...","service":"blogging_api","timestamp":"2025-09-15T21:55:26.102Z"}
+{"level":"info","message":"Blog database tables created successfully","service":"blogging_api","timestamp":"2025-09-15T21:55:26.137Z"}
+{"level":"info","message":"Server listening on port 9002,","service":"blogging_api","timestamp":"2025-09-15T21:55:26.138Z"}
+{"level":"info","message":"Starting blog database initialization...","service":"blogging_api","timestamp":"2025-09-15T21:57:48.118Z"}
+{"level":"info","message":"Blog database tables created successfully","service":"blogging_api","timestamp":"2025-09-15T21:57:48.163Z"}
+{"level":"info","message":"Server listening on port 9002,","service":"blogging_api","timestamp":"2025-09-15T21:57:48.164Z"}
+{"level":"info","message":"Closing database...","service":"blogging_api","timestamp":"2025-09-15T22:01:49.597Z"}
+{"level":"info","message":"Starting blog database initialization...","service":"blogging_api","timestamp":"2025-09-15T22:07:07.738Z"}
+{"level":"info","message":"Blog database tables created successfully","service":"blogging_api","timestamp":"2025-09-15T22:07:07.775Z"}
+{"level":"info","message":"Server listening on port 3000","service":"blogging_api","timestamp":"2025-09-15T22:07:07.775Z"}
+{"level":"info","message":"User registered successfully: Melcathy","service":"blogging_api","timestamp":"2025-09-15T22:19:10.308Z"}
+{"level":"info","message":"Starting blog database initialization...","service":"blogging_api","timestamp":"2025-09-15T22:19:50.197Z"}
+{"level":"info","message":"Blog database tables created successfully","service":"blogging_api","timestamp":"2025-09-15T22:19:50.234Z"}
