@@ -1,2 +1,19 @@
-{"level":"info","message":"Starting blog database initialization...","service":"todos-api","timestamp":"2025-09-12T13:49:51.519Z"}
-{"code":"28P01","file":"auth.c","length":107,"level":"error","line":"329","message":"Database query error: password authentication failed for user \"bloggeruser\"","name":"error","routine":"auth_failed","service":"todos-api","severity":"FATAL","stack":"error: password authentication failed for user \"bloggeruser\"\n    at /home/salahmel/Desktop/Projects/node_js/projects/blogging_platform/Project_2_blogging_platform/node_modules/pg-pool/index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async client (file:///home/salahmel/Desktop/Projects/node_js/projects/blogging_platform/Project_2_blogging_platform/src/utils/database.js:22:20)\n    at async initializeDatabase (file:///home/salahmel/Desktop/Projects/node_js/projects/blogging_platform/Project_2_blogging_platform/src/utils/database.js:35:5)\n    at async Server.onListening (file:///home/salahmel/Desktop/Projects/node_js/projects/blogging_platform/Project_2_blogging_platform/bin/www:48:5)","timestamp":"2025-09-12T13:49:51.550Z"}
+{"level":"info","message":"Starting blog database initialization...","service":"todos-api","timestamp":"2025-09-15T10:08:19.943Z"}
+{"level":"info","message":"Blog database tables created successfully","service":"todos-api","timestamp":"2025-09-15T10:08:20.014Z"}
+{"level":"info","message":"Server listening on port 8000,","service":"todos-api","timestamp":"2025-09-15T10:08:20.015Z"}
+{"level":"info","message":"Closing database...","service":"todos-api","timestamp":"2025-09-15T10:08:37.964Z"}
+{"level":"info","message":"Starting blog database initialization...","service":"todos-api","timestamp":"2025-09-15T10:08:41.734Z"}
+{"level":"info","message":"Blog database tables created successfully","service":"todos-api","timestamp":"2025-09-15T10:08:41.779Z"}
+{"level":"info","message":"Server listening on port 8000,","service":"todos-api","timestamp":"2025-09-15T10:08:41.780Z"}
+{"level":"info","message":"Closing database...","service":"todos-api","timestamp":"2025-09-15T10:08:47.887Z"}
+{"level":"info","message":"Starting blog database initialization...","service":"todos-api","timestamp":"2025-09-15T10:11:46.070Z"}
+{"level":"info","message":"Blog database tables created successfully","service":"todos-api","timestamp":"2025-09-15T10:11:46.112Z"}
+{"level":"info","message":"Server listening on port 8000,","service":"todos-api","timestamp":"2025-09-15T10:11:46.113Z"}
+{"level":"info","message":"Starting blog database initialization...","service":"blogging_api","timestamp":"2025-09-15T10:14:32.899Z"}
+{"level":"info","message":"Blog database tables created successfully","service":"blogging_api","timestamp":"2025-09-15T10:14:32.940Z"}
+{"level":"info","message":"Server listening on port 6000,","service":"blogging_api","timestamp":"2025-09-15T10:14:32.941Z"}
+{"level":"info","message":"Closing database...","service":"blogging_api","timestamp":"2025-09-15T10:14:40.640Z"}
+{"level":"info","message":"Starting blog database initialization...","service":"blogging_api","timestamp":"2025-09-15T10:14:42.976Z"}
+{"level":"info","message":"Blog database tables created successfully","service":"blogging_api","timestamp":"2025-09-15T10:14:43.014Z"}
+{"level":"info","message":"Server listening on port 6000,","service":"blogging_api","timestamp":"2025-09-15T10:14:43.015Z"}
+{"level":"info","message":"Closing database...","service":"blogging_api","timestamp":"2025-09-15T10:14:51.741Z"}

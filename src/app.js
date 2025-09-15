@@ -29,7 +29,7 @@ const limiter = rateLimit({
 app.use(morgan('combined'));
 app.use(helmet());
 app.use(cors({
-  origin: ["http://localhost:3000", "http://localhost:4000", "frontendapp.vercel.app"],
+  origin: ["http://localhost:8000", "frontendapp.vercel.app"],
   credentials: true
 }));
 app.use(limiter);
@@ -45,7 +45,7 @@ app.use('/posts', postRoutes);
 app.use('/comments', commentRoutes);
 
 // Handle undefined routes
-app.all('*', (req, res, next) => {
+app.all('/*splat', (req, res, next) => {
   next(new AppError(`Can't find ${req.originalUrl} on this server!`, 404));
 });
 

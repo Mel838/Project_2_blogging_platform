@@ -13,7 +13,7 @@ import { config } from "../src/config/env.js";
 /**
  * Get port from environment
  */
-const port = config.port || 8080;
+const port = config.port;
 app.set('port', port);
 
 /**
