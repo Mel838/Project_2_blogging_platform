@@ -2,7 +2,6 @@ import express from "express";
 import cookieParser from "cookie-parser";
 import morgan from "morgan";
 import helmet from "helmet";
-import cors from "cors";
 import rateLimit from "express-rate-limit";
 
 import indexRouter from "./routes/index.js";
@@ -28,10 +27,6 @@ const limiter = rateLimit({
 // Global middleware
 app.use(morgan('combined'));
 app.use(helmet());
-app.use(cors({
-  origin: ["http://localhost:8000", "frontendapp.vercel.app"],
-  credentials: true
-}));
 app.use(limiter);
 app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ extended: true, limit: '10mb' }));
@@ -44,10 +39,6 @@ app.use('/users', userRoutes);
 app.use('/posts', postRoutes);
 app.use('/comments', commentRoutes);
 
-// Handle undefined routes
-app.all('/*splat', (req, res, next) => {
-  next(new AppError(`Can't find ${req.originalUrl} on this server!`, 404));
-});
 
 // Global error handling middleware
 app.use(globalErrorHandler);

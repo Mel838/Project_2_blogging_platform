@@ -1,12 +1,12 @@
-import path from "node:path"
-import { fileURLToPath } from "node:url"
-import winston from "winston"
-import { config } from "../config/env.js"
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+import winston from "winston";
+import { config } from "../config/env.js";
 
-const __filename = fileURLToPath(import.meta.url)
-const __dirname = path.dirname(__filename)
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
-const logDir = path.join(__dirname, "../logs")
+const logDir = path.join(__dirname, "../logs");
 
 export const logger = winston.createLogger({
   level: config.logging.level,
@@ -39,7 +39,7 @@ export const logger = winston.createLogger({
     })
   ],
   exitOnError: false
-})
+});
 
 // Add console transport for non-production environments
 if (process.env.NODE_ENV !== 'production') {
@@ -50,5 +50,5 @@ if (process.env.NODE_ENV !== 'production') {
       winston.format.align()
     ),
     level: "debug"
-  }))
-}
+  }));
+};

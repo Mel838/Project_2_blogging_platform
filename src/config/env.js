@@ -1,12 +1,12 @@
-import dotenv from "dotenv"
+import dotenv from "dotenv";
 
-dotenv.config()
+dotenv.config();
 
 export const config = {
-  port: process.env.PORT,
+  port: process.env.PORT || 3000,
   nodeEnv: process.env.NODE_ENV || 'development',
 
-// Database configuration
+  // Database configuration
   database: {
     host: process.env.DB_HOST || 'localhost',
     port: process.env.DB_PORT || 5432,
@@ -18,4 +18,4 @@ export const config = {
   logging: {
     level: process.env.LOG_LEVEL || "info"
   }
-}
+};
